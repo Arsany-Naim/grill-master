@@ -1,54 +1,65 @@
 <div align="center">
   
-  ![GitHub repo size](https://img.shields.io/github/repo-size/codewithsadee/grilli)
-  ![GitHub stars](https://img.shields.io/github/stars/codewithsadee/grilli?style=social)
-  ![GitHub forks](https://img.shields.io/github/forks/codewithsadee/grilli?style=social)
-[![Twitter Follow](https://img.shields.io/twitter/follow/codewithsadee_?style=social)](https://twitter.com/intent/follow?screen_name=codewithsadee_)
-  [![YouTube Video Views](https://img.shields.io/youtube/views/CjVGp5kGHxA?style=social)](https://youtu.be/CjVGp5kGHxA)
-
-  <br />
-  <br />
 
   <h2 align="center">Grilli - Restaurant Website</h2>
 
   Grilli is a fully responsive restaurant website, <br />Responsive for all devices, build using HTML, CSS, and JavaScript.
 
-  <a href="https://codewithsadee.github.io/grilli/"><strong>➥ Live Demo</strong></a>
-
 </div>
 
 <br />
 
-### Demo Screeshots
+# Grilli - Restaurant Website
 
-![Grilli Desktop Demo](./readme-images/desktop.png "Desktop Demo")
+Grilli is a responsive, static restaurant website built with HTML, CSS, and JavaScript. It is designed to be simple to run locally and easy to customize.
 
-### Prerequisites
+## Overview
 
-Before you begin, ensure you have met the following requirements:
+This project provides a clean, modern layout suitable for a restaurant landing page. It includes structured content, reusable styles, and lightweight JavaScript for basic interactivity.
 
-* [Git](https://git-scm.com/downloads "Download Git") must be installed on your operating system.
+## Features
 
-### Run Locally
+- Responsive layout for desktop, tablet, and mobile screens
+- Clean, semantic markup for easy content updates
+- Organized asset structure for styles, scripts, and images
+- Lightweight, dependency-free frontend
 
-To run **Grilli** locally, run this command on your git bash:
+## Tech Stack
 
-Linux and macOS:
+- HTML5
+- CSS3
+- JavaScript (vanilla)
 
-```bash
-sudo git clone https://github.com/codewithsadee/grilli.git
+## Project Structure
+
+```
+assets/
+  css/
+    style.css
+  images/
+  js/
+    script.js
+index.html
 ```
 
-Windows:
+## Getting Started
 
-```bash
-git clone https://github.com/codewithsadee/grilli.git
-```
+### Option 1: Open Directly
 
-### Contact
+1. Download or clone the repository.
+2. Open `index.html` in your browser.
 
-If you want to contact with me you can reach me at [Twitter](https://www.twitter.com/codewithsadee).
+### Option 2: Serve Locally
 
-### License
+Use any static server (for example, the VS Code Live Server extension) to preview the site with live reload.
 
-[MIT](https://choosealicense.com/licenses/mit/)
+## Customization
+
+- Update page content in `index.html`.
+- Replace image assets in `assets/images`.
+- Adjust styles in `assets/css/style.css`.
+- Modify behavior in `assets/js/script.js` if needed.
+
+## License
+
+MIT License. See the LICENSE file for details.
